@@ -38,6 +38,18 @@ public class Switch_Statements {
             information = " no valid info";
 
 
+            System.out.println("-------");
+
+
+
+
+
+
+
+
+
+
+
     }
 
 }
