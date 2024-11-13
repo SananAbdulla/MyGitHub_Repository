@@ -48,6 +48,9 @@ public class Switch_Statements {
             System.out.println("-------");
             System.out.println("-------");
 
+            System.out.println("-------");
+            System.out.println("-------");
+
 
 
 
