@@ -16,10 +16,10 @@ public class TernaryPractice {
     // Option 2. Using Trenary
         String result;
 
-//      result= (num <10 && num >= -9) ? "Number is single digit" : "Number is multi digit";
+     result= (num <10 && num >= -9) ? "Number is single digit" : "Number is multi digit";
 //
-//        System.out.println(result);
-        System.out.println((num <10 && num >= -9) ? "Number is single digit" : "Number is multi digit");
+       System.out.println(result);
+       // System.out.println((num <10 && num >= -9) ? "Number is single digit" : "Number is multi digit");
 
 
 
