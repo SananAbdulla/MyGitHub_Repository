@@ -28,8 +28,8 @@ public class SmsParts {
         System.out.println(part2);
 
         // P3
-        String part3 = message.substring (message.indexOf("{") + 1, message.indexOf("}")) ;
-        //String part3 = message.substring (message.indexOf("{") + 1, message.length()-1 ) ;  // this will do the same thing as above
+        //String part3 = message.substring (message.indexOf("{") + 1, message.indexOf("}")) ;
+        String part3 = message.substring (message.indexOf("{") + 1, message.length()-1 ) ;  // this will do the same thing as above
         System.out.println(part3);
 
 

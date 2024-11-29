@@ -39,25 +39,58 @@ public class main {
 
        // Do While loop
 
-          int n = 1;
-          do {
-              System.out.println("DO WHILE LOOP: " + n);
-              n+=2;
-          }
-          while (n<=20);
+//          int n = 1;
+//          do {
+//              System.out.println("DO WHILE LOOP: " + n);
+//              n+=2;
+//          }
+//          while (n<=20);
+//
+//        System.out.println("---------------------");
+//          // WHILE LOOP
+//
+//        int m = 1;
+//
+//        while (m<=20) {
+//
+//            System.out.println("DO WHILE LOOP: " + m);
+//            m+=2;
+//        }
 
-        System.out.println("---------------------");
-          // WHILE LOOP
 
-        int m = 1;
+        // for loop
 
-        while (m<=20) {
+//        Scanner key = new Scanner(System.in);
+//
+//        System.out.println("Pls enter number");
+//        int num = key.nextInt();
+//
+//
+//        for (int i = 1; i <=10 ; i++) {
+//            System.out.println(num +" x " + i + " = " + (num*i));
 
-            System.out.println("DO WHILE LOOP: " + m);
-            m+=2;
+    //    }
+
+    //String str= "Azerbaijan";
+        Scanner key= new Scanner(System.in);
+        System.out.println("Please enter any word: ");
+        String userInput = key.next();
+
+        String reversed = "";
+
+//
+//        for (int i = 0; i < userInput.length(); i++) {
+//            System.out.println(userInput.charAt(i));
+//
+//        }
+        System.out.println("------------------------------");
+
+        for (int i = userInput.length()-1; i >= 0; i--) {
+            //System.out.println(userInput.charAt(i));
+            reversed += userInput.charAt(i);
         }
-
-
+        System.out.print(reversed);
+        
 
 
     }

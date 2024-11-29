@@ -36,7 +36,7 @@ public class Website {
 //    url = url.substring(url.indexOf(".")+1, url.lastIndexOf("."));
 //        System.out.println(url);
 
-    if (url.startsWith("www.") && url.endsWith(".com")) {
+    if (url.contains("www.") && url.endsWith(".com")) {
         System.out.println("Valid url: " + url);
     } else {
         System.out.println("My code is not designed to handle your URL");
