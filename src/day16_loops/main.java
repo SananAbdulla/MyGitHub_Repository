@@ -86,11 +86,10 @@ public class main {
         System.out.println("------------------------------");
 
         for (int i = userInput.length()-1; i >= 0; i--) {
-            //System.out.println(userInput.charAt(i));
-            reversed += userInput.charAt(i);
+            System.out.print(userInput.charAt(i));
+            //reversed += userInput.charAt(i);
         }
-        System.out.print(reversed);
-        
+        //System.out.print(reversed);
 
 
     }
