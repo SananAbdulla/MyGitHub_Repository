@@ -143,34 +143,51 @@ public class Practice {
 
 
                   // 2D Arrays
+//
+//        String [] group1 = {"Artem", "Diana", "Yuliia", "Roma"};
+//        String [] group2 = {"Pavlo", "Steven", "Ketevan"};
+//
+//        String [] [] newGroup =  {group1, group2};
+//
+//
+//        System.out.println(Arrays.deepToString(newGroup));
+//
+//        System.out.println("----------------");
+//
+//                   // OPTION 1
+//
+//        for (String [] each : newGroup) {
+//            for (String eachName:each) {
+//                System.out.println(eachName);
+//            }
+//        }
+//
+//
+//               // OPTION 2
+//        System.out.println("*******************");
+//
+//        for (int i = 0; i < newGroup.length; i++) {
+//            for (int j = 0; j < newGroup[i].length ; j++) {
+//                System.out.println(newGroup[i][j]);
+//
+//            }
+//
+//        }
 
-        String [] group1 = {"Artem", "Diana", "Yuliia", "Roma"};
-        String [] group2 = {"Pavlo", "Steven", "Ketevan"};
+        int num = 4;
 
-        String [] [] newGroup =  {group1, group2};
-
-
-        System.out.println(Arrays.deepToString(newGroup));
-
-        System.out.println("----------------");
-
-                   // OPTION 1
-
-        for (String [] each : newGroup) {
-            for (String eachName:each) {
-                System.out.println(eachName);
-            }
-        }
-
-
-               // OPTION 2
-        System.out.println("*******************");
-
-        for (int i = 0; i < newGroup.length; i++) {
-            for (int j = 0; j < newGroup[i].length ; j++) {
-                System.out.println(newGroup[i][j]);
-
-            }
+        switch (num) {
+            case 1:
+                System.out.println("monday");
+                break;
+            case 2:
+                System.out.println("tuesday");
+                break;
+            case 3, 4:
+                System.out.println("lol");
+                break;
+            default:
+                System.out.println("bye");
 
         }
 
