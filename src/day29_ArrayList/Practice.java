@@ -65,5 +65,6 @@ public class Practice {
         System.out.println(numList);
 
 
+
     }
 }
