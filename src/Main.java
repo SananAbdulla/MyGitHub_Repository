@@ -1,29 +1,26 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
 
 
 
-        String str = "Hello";
-        System.out.println(str);
+        Scanner input = new Scanner(System.in);
 
-        str = "why";
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+        int iterate = input.nextInt();
 
-        System.out.println(str);
 
-        str = new String ("Hello native english speakers");
+        int total = 0;
 
-        System.out.println(str);
+        for ( int j = 0; j < iterate; j ++) {
+            if (j % 3 == 0) continue;
+            total += num1 + num2;
+        }
+        System.out.println(total);
 
-        str.toUpperCase();
-
-        System.out.println( str.toUpperCase() );
-
-        System.out.println(str);
-
-        System.out.println(str.toLowerCase());
-
-        System.out.println(str);
 
 
 
