@@ -36,37 +36,45 @@ public class Pactice {
         System.out.println(letterCount);
 
 
-        ArrayList <String> week = getDaysOfWeek();
+        //ArrayList <String> week = getDaysOfWeek();
 
-        System.out.println(week.get(0));
+       // System.out.println(week.get(0));
 
 
         ArrayList <Integer> nums1 = new ArrayList<>(Arrays.asList( 3, 54, 23, 76, 87, 34, 23, 7, 9));
-        nums1.removeIf( eachElement -> eachElement < 49);
+//        nums1.removeIf( eachElement -> eachElement < 49);
+//
+//        System.out.println(nums1);
+        ArrayList<String> list = new ArrayList<>(Arrays.asList("Banana", "Kiwi", "Apple", "Peach"));
 
-        System.out.println(nums1);
+        list.remove("Kiwi");
+
+               System.out.println(nums1);
+               System.out.println(list);
 
 
-        for (int i = 0; i < nums1.size(); i++) {
-            nums1.set(i, nums1.get(i)*2);
 
 
-        }
-        System.out.println(nums1);
-
-    }
-
-    public static ArrayList<String> getDaysOfWeek () {
-        ArrayList <String> weekDays = new ArrayList<>(Arrays.asList(
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-        ));
-
-        return weekDays;
+//        for (int i = 0; i < nums1.size(); i++) {
+//            nums1.set(i, nums1.get(i)*2);
+//
+//
+//        }
+//        System.out.println(nums1);
+//
+//    }
+//
+//    public static ArrayList<String> getDaysOfWeek () {
+//        ArrayList <String> weekDays = new ArrayList<>(Arrays.asList(
+//                "Monday",
+//                "Tuesday",
+//                "Wednesday",
+//                "Thursday",
+//                "Friday",
+//                "Saturday",
+//                "Sunday"
+//        ));
+//
+//        return weekDays;
     }
 }
