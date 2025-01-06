@@ -1,5 +1,7 @@
 package day29_ArrayList;
 
+import day33_a_static.Song;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -63,6 +65,8 @@ public class Practice {
         Collections.swap(numList, 0, 2);
 
         System.out.println(numList);
+
+
 
 
 
